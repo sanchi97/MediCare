@@ -17,76 +17,21 @@
     <title>Medicare</title>
 	<link href="style.css" rel="stylesheet">
     <style>
-        #form{
-    background-color:transparent;
-    height:400px;
-    width:800px;
-    margin: auto;
-    margin-top: 100px;
-    opacity:0.7;
     
-}
-#first-group{
-    border:none;
-    width:400px;
-    margin-top: 38px;
-    position: absolute;
-}
-#content{
-    border: 1px solid black;
-    margin:10px;
-    margin-left: 8px;
-    padding:5px;
-}
-#content #input-group{
-    border:none;
-    outline:none;
-    background: transparent;
-    margin-left:8px;
-    width:300px;
-    color:black;
-}
-::placeholder{
-    color:black;
-}
-.fa{
-    display:inline-block;
-    color:red;
-    /* border-right:1px solid black; */
-    padding:8px;
-    margin-left: 8px;
-}
-#second-group{
-    border:none;
-    width:400px;
-    margin-top: 55px;
-    margin-left:400px;
-}
-#submit-btn{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    margin-left:350px;
-    /* background: transparent; */
-    /* color:black; */
-    width:150px;
-    /* border:1px solid red; */
-    outline:none;
-    padding:10px;
-    font-size: 20px;
-} 
+    
     </style>
 </head>
 <body>
     <!-- navbar -->
-	<div class="custom-padding">
-		<nav>
-			<div class="logo">
-				<img src="logo.png" alt="">
-			</div>
-			<ul class="menu-area">
-				<li>
+    <div class="nav">
+        <div class="nav-title">
+            <h1><img src="logo.png"  width="100px"alt=""></h1>
+        </div>
+    
+        <div class="nav-menu">
+            <ul>
+                
+                <li>
 					<a href="#">Home</a>
 				</li>
 				<li>
@@ -99,12 +44,11 @@
 					<a href="#Facilities">Facilities</a>
 				</li>
 				<li>
-					<a href="#about">Contact Us</a>
+					<a href="#about">Contact</a>
 				</li>
-                
-			</ul>
-		</nav>
-	</div>
+            </ul>
+        </div>
+    </div>
     
     <section id="hero" class="d-flex align-items-center">
         <div class="container text-center position relative">
@@ -215,7 +159,7 @@
                             <i class="fas fa-tooth"></i>
                         </div>
                         <h4>Dental Care</h4>
-                        <p><img src="dental.jpeg" alt="">
+                        <p><img src="dental.jpeg"width="450px" alt="">
                             <br>
                             <br>
                             <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
@@ -228,7 +172,7 @@
                             <i class="fas fa-lungs"></i>
                         </div>
                         <h4>Pulmonology</h4>
-                        <p><img src="lungs.jpeg" alt="">.
+                        <p><img src="lungs.jpeg" width="450px" alt="">.
                         <br><br>
                         <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
                         
@@ -242,7 +186,7 @@
                             <i class="fas fa-bone"></i>
                         </div>
                         <h4>Orthopedics</h4>
-                        <p><img src="ortho.jpeg" alt="">
+                        <p><img src="ortho.jpeg" width="450px" alt="">
                         <br>
                         <br>
                         
@@ -256,7 +200,7 @@
                             <i class="fas fa-brain"></i>
                         </div>
                         <h4>Neurologists</h4>
-                        <p><img src="brain.jpeg" alt="">
+                        <p><img src="brain.jpeg" width="450px"alt="">
                         <br>
                         <br>
                         <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
@@ -269,7 +213,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                         <h4>Cardiology</h4>
-                        <p><img src="heart.jpeg" alt="">.
+                        <p><img src="heart.jpeg" width="450px" alt="">.
                         <br>
                         <br>
                         <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
@@ -282,7 +226,7 @@
                             <i class="fas fa-eye"></i>
                         </div>
                         <h4>Ophthalmology</h4>
-                        <p><img src="eye.jpeg" alt="">
+                        <p><img src="eye.jpeg" width="450px" alt="">
                         <br>
                         <br>
                         <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
@@ -302,19 +246,23 @@
     <div class="icontainer">
         
         <div class="ibox">
-            <img src="equip1.jpeg" alt="">
+            <img src="equip1.jpeg" width="200px"alt="">
         </div>
+        
         <div class="ibox">
-            <img src="equip2.jpeg" alt="">
+            <img src="equip2.jpeg" width="200px"  alt="">
         </div>
+        
         <div class="ibox">
-            <img src="equip3.jpeg" alt="">
+            <img src="equip3.jpeg" width="200px" alt="">
         </div>
+        
         <div class="ibox">
-            <img src="equip4.jpeg" alt="">
+            <img src="equip4.jpeg" width="200px" alt="">
         </div>
+        
         <div class="ibox">
-            <img src="equip5.jpeg" alt="">
+            <img src="equip5.jpeg" width="200px" alt="">
         </div>
     </div>
     
@@ -334,7 +282,7 @@
                             <i class="fas fa-tooth"></i>
                         </div>
                         <h4>Dr.Harish Sharma</h4>
-                        <p><img src="dentist.jpeg" alt="">
+                        <p><img src="dentist.jpeg"width="450px"alt="">
                             <p>Dentist</p>
                             <br>
                             <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
@@ -347,7 +295,7 @@
                             <i class="fas fa-lungs"></i>
                         </div>
                         <h4>Dr. Harshit Singh</h4>
-                        <p><img src="pulomology.jpeg" alt="">.
+                        <p><img src="pulomology.jpeg"width="450px" alt="">.
                         <p>Pulmonologist</p>
                         <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
                         
@@ -361,7 +309,7 @@
                             <i class="fas fa-bone"></i>
                         </div>
                         <h4>Dr.Miley Dew</h4>
-                        <p><img src="bone.jpg" alt="">
+                        <p><img src="bone.jpg" width="450px" alt="">
                         <p>Orthopedics</p>
                     
                         
@@ -375,7 +323,7 @@
                             <i class="fas fa-brain"></i>
                         </div>
                         <h4>Dr. R.D. Verma</h4>
-                        <p><img src="nerologist.jpeg" alt="">
+                        <p><img src="nerologist.jpeg" width="450px" alt="">
                         <p>Neurologists</p>
                         
                         <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
@@ -388,7 +336,7 @@
                             <i class="fas fa-heart"></i>
                         </div>
                         <h4>Dr.Vivek Iyer</h4>
-                        <p><img src="cardiologist.jpeg" alt="">.
+                        <p><img src="cardiologist.jpeg" width="450px" alt="">.
                         <p>Cardiologist</p>
                         
                         <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
@@ -401,7 +349,7 @@
                             <i class="fas fa-eye"></i>
                         </div>
                         <h4>Dr. Vinakshi Dubey</h4>
-                        <p><img src="ee.jpeg" alt="">
+                        <p><img src="ee.jpeg" width="450px" alt="">
                         <p>Ophthalmologist</p>
                         <a href="#appoint"><button class="btn btn-primary">Book Now</button></a>
                     </p>
@@ -442,7 +390,7 @@
                         </p>
                     </div>
                 </div>
-            <div class="col-md-6 d-none d-md-block">
+            <!-- <div class="col-md-6 d-none d-md-block"> -->
                     <img src="ambulance.jpg" width="100%" alt="">
                 </div> 
          
@@ -453,81 +401,40 @@
     </section>
     <!-- emergency ends -->
     <!-- Appointment -->
-    
-    <div class="container">
-        <form class="form-group" id="appoint">
-            <div id="form">
-                <h1 class="text-success text-center">Appointment</h1>
-    
-                <div id="first-group">
-    
-                    <div id="content">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <input type="text" id="input-group" placeholder="First name">
-                    </div>
-    
-                    <div id="content">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <input type="number" id="input-group" placeholder="Phone number">
-                    </div>
-                    <div id="content">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <input type="number" id="input-group" placeholder="Age">
-                    </div>
-    
+     <div class="container" id="appoint">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Appointment</h2>
+				<input type="text" class="field" placeholder="Your Name">
+				<input type="text" class="field" placeholder=" Phone or Email">
+				<input type="number" class="field" placeholder="Age">
+                <label><b>Appointment Date</b></label>
+				<input type="date" class="field" placeholder="Appointment Date">
+
+              
+
+                <select id="input-group" style="background-color:transparent;">
+                    <option value=""><b>Departments</b></option>     
+                    <option value="">Dental</option>
+                    <option value="">Cardiology</option>
+                    <option value="">Orthopedics</option>
+                    <option value="">Neurologists</option>
+                    <option value="">Ophthalmology</option>
+                    <option value="">Pulmonology</option>
+                </select>
+                <br>
+                <br>
+                <button class="btn btn-primary">Book Now</button>
                     
-                    <div id="content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <select id="input-group" style="background-color:transparent;">
-                            <option value="">Department</option>
-                            <option value="">Dental</option>
-                            <option value="">Cardiology</option>
-                            <option value="">Orthopedics</option>
-                            <option value="">Neurologists</option>
-                            <option value="">Ophthalmology</option>
-                            <option value="">Pulmonology</option>
-                        </select>
-                    </div>
-                    
-                </div>
-    
-                <div id="second-group">
-    
-                    <div id="content">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        <input type="text" id="input-group" placeholder="Last name">
-                    </div>
-    
-                    <div id="content">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <input type="email" id="input-group" placeholder="Email">
-                    </div>
-    
-                    <div id="content">
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                        <input type="date" id="input-group" placeholder="Appointment Date">
-                    </div>
-                    <div id="content">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <select id="input-group" style="background-color:transparent;">
-                            <option value="">General</option>
-                            <option value="">private</option>
-                        </select>
-                    </div>
-    
-    
-                    
-    
-                </div>
-    
-                <button class=" btn btn-primary" type="submit" value="Submit" id="submit-btn">Book Now</button>
-    
-            </div>
-        </form>
-    </div>
-    
+        </div>    
+                
+	</div>
+             
     <!-- Appointment ends -->
-    <h3>Follow Us</h3>
+    <!-- footer -->
+    <h3>Follow Us:</h3>
+
 <div class="wrapper" id="sicon">
     <div class="button">
   
@@ -553,6 +460,9 @@
       <span>LinkedIn</span>
     </div>
   </div>
+  
+  <p>Designed By <b class="text-success">S.Brambha</b></p>
+  <!-- footer -->
   
 </body>
 </html>
